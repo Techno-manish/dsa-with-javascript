@@ -8,6 +8,7 @@ Question 3: Count number of digits in a numiber
  **/
 
 function countDigits(num){
+    num = Math.abs(num)
     count=0
 
     do{
